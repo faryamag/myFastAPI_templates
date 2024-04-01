@@ -1,0 +1,61 @@
+{
+  "working_dir": "E:\\study\\python_projects\\mediapanels_backend\\scripts\\tmp",
+  "json_file": "E:\\study\\python_projects\\mediapanels_backend\\scripts\\tmp\\db.json",
+  "delete": [
+    {
+      "display": "7",
+      "from": "13.03.2024",
+      "filename": "d5e5dd7a114836dc4014e32cf162094f.mp4",
+      "md5hash": "d5e5dd7a114836dc4014e32cf162094f",
+      "url": "localhost:8000/files/d5e5dd7a114836dc4014e32cf162094f",
+      "state": "current"
+    }
+  ],
+
+  "schedule": [
+
+    {
+      "display": "7",
+      "from": "16.05.2024",
+      "filename": "7e8ad486a8cef2cc0b1d321db63bf642.mp4",
+      "md5hash": "7e8ad486a8cef2cc0b1d321db63bf642",
+      "url": "localhost:8000/files/7e8ad486a8cef2cc0b1d321db63bf642",
+      "state": "scheduled"
+    },
+    {
+      "display": "7",
+      "from": "13.03.2024",
+      "filename": "d5e5dd7a114836dc4014e32cf162094f.mp4",
+      "md5hash": "d5e5dd7a114836dc4014e32cf162094f",
+      "url": "localhost:8000/files/d5e5dd7a114836dc4014e32cf162094f",
+      "state": "current"
+    },
+    {
+      "display": "7",
+      "from": "15.03.2024",
+      "filename": "fcd761ea655889dfdc1eadd35a01051f.mp4",
+      "md5hash": "fcd761ea655889dfdc1eadd35a01051f",
+      "url": "localhost:8000/files/fcd761ea655889dfdc1eadd35a01051f",
+      "state": "scheduled"
+    },
+    {
+      "display": "7",
+      "from": "14.03.2024",
+      "filename": "f3c6e05ef707d9b2354c81fde7fe67c7.mp4",
+      "md5hash": "f3c6e05ef707d9b2354c81fde7fe67c7",
+      "url": "https://storage.mikifaan.ru/s/JzWagYzGnnrSQag/download/VID_20230703_134251.mp4",
+      "state": "scheduled"
+    }
+
+  ],
+  "current": [
+    {
+      "display": "7",
+      "from": "16.05.2024",
+      "filename": "7e8ad486a8cef2cc0b1d321db63bf642.mp4",
+      "md5hash": "7e8ad486a8cef2cc0b1d321db63bf642",
+      "url": "https://storage.mikifaan.ru/s/5LHoR6XtwJZkWrb/download/VID_20230506_205034.mp4",
+      "state": "scheduled"
+    }
+  ]
+}

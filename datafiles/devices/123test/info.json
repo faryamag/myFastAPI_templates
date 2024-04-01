@@ -1,0 +1,37 @@
+{
+  "working_dir": "E:\\study\\python_projects\\mediapanels_backend\\scripts\\tmp",
+  "json_file": "E:\\study\\python_projects\\mediapanels_backend\\scripts\\tmp\\info.json",
+  "displays": [
+    "7"
+  ],
+  "current": [
+    {
+      "display": "7",
+      "filename": "d5e5dd7a114836dc4014e32cf162094f.mp4",
+      "md5hash": "d5e5dd7a114836dc4014e32cf162094f"
+    }
+  ],
+  "files": [
+    {
+      "filename": "7e8ad486a8cef2cc0b1d321db63bf642.mp4",
+      "md5hash": "7e8ad486a8cef2cc0b1d321db63bf642"
+    },
+    {
+      "filename": "d5e5dd7a114836dc4014e32cf162094f.mp4",
+      "md5hash": "d5e5dd7a114836dc4014e32cf162094f"
+    },
+    {
+      "filename": "display_7_media.mp4",
+      "md5hash": "d5e5dd7a114836dc4014e32cf162094f"
+    },
+    {
+      "filename": "f3c6e05ef707d9b2354c81fde7fe67c7.mp4",
+      "md5hash": "f3c6e05ef707d9b2354c81fde7fe67c7"
+    },
+    {
+      "filename": "fcd761ea655889dfdc1eadd35a01051f.mp4",
+      "md5hash": "fcd761ea655889dfdc1eadd35a01051f"
+    }
+  ],
+  "secret": null
+}
