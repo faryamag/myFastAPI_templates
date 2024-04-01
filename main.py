@@ -5,14 +5,14 @@ import json
 from models.endpoints import MediaMachine
 import os
 
-panels = FastAPI()
+app = FastAPI()
 
-@panels.get("/test/{sn}")
+@app.get("/test/{sn}")
 async def test_request(request: Request, sn):
     print(request.headers, sn)
     return  sn
 
-@panels.get("/device/{sn}")
+@app.get("/device/{sn}")
 async def task_response(sn):
     schedule_json = os.path.abspath(f'./datafiles/devices/{sn}/schedule.json')
     if not os.path.exists(f'./datafiles/devices/{sn}'):
@@ -24,7 +24,7 @@ async def task_response(sn):
             return await schedule.read()
 
 
-@panels.post("/device/{sn}")
+@app.post("/device/{sn}")
 async def task_response(sn: str, machine: MediaMachine):
     info_json = os.path.abspath(f'./datafiles/devices/{sn}/info.json')
     if not os.path.exists(f'./datafiles/devices/{sn}'):
@@ -35,7 +35,7 @@ async def task_response(sn: str, machine: MediaMachine):
         return Response(status_code=status.HTTP_200_OK, content="Thanks")
 
 
-@panels.get("/files/{md5hash}")
+@app.get("/files/{md5hash}")
 async def files_response(request: Request, md5hash):
     file = os.path.abspath(f'./datafiles/{md5hash}.mp4')
     if not os.path.exists(file):
