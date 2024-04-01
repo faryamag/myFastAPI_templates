@@ -7,7 +7,7 @@
       "from": "13.03.2024",
       "filename": "d5e5dd7a114836dc4014e32cf162094f.mp4",
       "md5hash": "d5e5dd7a114836dc4014e32cf162094f",
-      "url": "localhost:8000/files/d5e5dd7a114836dc4014e32cf162094f",
+      "url": "http://localhost:8000/files/d5e5dd7a114836dc4014e32cf162094f",
       "state": "current"
     }
   ],
@@ -19,7 +19,7 @@
       "from": "16.05.2024",
       "filename": "7e8ad486a8cef2cc0b1d321db63bf642.mp4",
       "md5hash": "7e8ad486a8cef2cc0b1d321db63bf642",
-      "url": "localhost:8000/files/7e8ad486a8cef2cc0b1d321db63bf642",
+      "url": "http://localhost:8000/files/7e8ad486a8cef2cc0b1d321db63bf642",
       "state": "scheduled"
     },
     {
@@ -27,7 +27,7 @@
       "from": "13.03.2024",
       "filename": "d5e5dd7a114836dc4014e32cf162094f.mp4",
       "md5hash": "d5e5dd7a114836dc4014e32cf162094f",
-      "url": "localhost:8000/files/d5e5dd7a114836dc4014e32cf162094f",
+      "url": "http://localhost:8000/files/d5e5dd7a114836dc4014e32cf162094f",
       "state": "current"
     },
     {
@@ -35,7 +35,7 @@
       "from": "15.03.2024",
       "filename": "fcd761ea655889dfdc1eadd35a01051f.mp4",
       "md5hash": "fcd761ea655889dfdc1eadd35a01051f",
-      "url": "localhost:8000/files/fcd761ea655889dfdc1eadd35a01051f",
+      "url": "http://localhost:8000/files/fcd761ea655889dfdc1eadd35a01051f",
       "state": "scheduled"
     },
     {
@@ -43,7 +43,7 @@
       "from": "14.03.2024",
       "filename": "f3c6e05ef707d9b2354c81fde7fe67c7.mp4",
       "md5hash": "f3c6e05ef707d9b2354c81fde7fe67c7",
-      "url": "localhost:8000/files/f3c6e05ef707d9b2354c81fde7fe67c7",
+      "url": "http://localhost:8000/files/f3c6e05ef707d9b2354c81fde7fe67c7",
       "state": "scheduled"
     }
 
@@ -54,7 +54,7 @@
       "from": "16.05.2024",
       "filename": "7e8ad486a8cef2cc0b1d321db63bf642.mp4",
       "md5hash": "7e8ad486a8cef2cc0b1d321db63bf642",
-      "url": "localhost:8000/files/7e8ad486a8cef2cc0b1d321db63bf642",
+      "url": "http://localhost:8000/files/7e8ad486a8cef2cc0b1d321db63bf642",
       "state": "scheduled"
     }
   ]

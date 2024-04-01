@@ -31,7 +31,7 @@ async def task_response(sn: str, machine: MediaMachine):
         raise HTTPException(status_code=404, detail='Device not found')
     else:
         async with aiofiles.open(info_json, mode="w") as info:
-            await schedule.write(json.dumps(machine))
+            await info_json.write(json.dumps(machine))
         return Response(status_code=status.HTTP_200_OK, content="Thanks")
 
 
